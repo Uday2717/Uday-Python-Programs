@@ -1,0 +1,7 @@
+file=open("tops2.txt","w+")
+file.write("This is w+ mode using python.")
+print("Current File Position:",file.tell())
+file.seek(0)
+print("File Content :",file.read())
+file.close()
+print("***************************************")

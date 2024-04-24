@@ -1,0 +1,17 @@
+s="Exarmy Gaming"
+
+print(s.capitalize())
+print(s.casefold())
+print(s.center(40,"#"))
+print(s.count("a"))
+print(s.endswith("ng"))
+print(s.index("a"))
+print("uday05".isalnum())
+print("uday".isalpha())
+print("udayahir".islower())
+print("2717".isnumeric())
+print(" ".isspace())
+print(s.istitle())
+print("UDAY".isupper())
+print(s.replace("E","e"))
+print(s.find("ar"))
